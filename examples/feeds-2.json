@@ -1,0 +1,275 @@
+{
+  "$schema" : "https://w3id.org/lem/2021a/schemas/records",
+  "$records" : [
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/self"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/self",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-card",
+      "$properties" : {
+        "name" : "Ciprian Dorin Craciun"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/self/avatar",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/self",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-card/logo",
+      "$url" : "https://scratchpad.volution.ro/ciprian/c602db805b4e93c9014126062432311b/avatar.jpg"
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/830529eb"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed",
+      "$properties" : {
+        "name" : "Ciprian's unpublished ideas"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/830529eb/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/author",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+      "$properties" : {
+        "name" : "Data as code",
+        "url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9",
+        "updated" : "2021-09-11"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9/content/html",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9.html"
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9/content/text",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9.txt"
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+      "$entities" : {
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "tag:ciprian.craciun@gmail.com,2021-10-02:id:9e320f673b231e11",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/19817cd9"
+      }
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+      "$properties" : {
+        "name" : "Entities, links, data",
+        "url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7",
+        "updated" : "2021-09-11"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7/content/html",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7.html"
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7/content/text",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7.txt"
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+      "$entities" : {
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "tag:ciprian.craciun@gmail.com,2021-10-02:id:db2a18d2f477cc87",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/1ab930b7"
+      }
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+      "$properties" : {
+        "name" : "The `...` symlinks trick for \"local aliasing\"",
+        "url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca",
+        "updated" : "2021-09-11"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca/content/html",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca.html"
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca/content/text",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca.txt"
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+      "$entities" : {
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "tag:ciprian.craciun@gmail.com,2021-10-02:id:08a9ddfbea4cccf5",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/4a56cfca"
+      }
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+      "$properties" : {
+        "name" : "Regarding a common HTML rendering for markup languages",
+        "url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd",
+        "updated" : "2021-09-13"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd/content/html",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd.html"
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd/content/text",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd.txt"
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+      "$entities" : {
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "tag:ciprian.craciun@gmail.com,2021-10-02:id:cbec180fffdb6d25",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/58cdcdcd"
+      }
+    },
+    {
+      "$type" : "entity",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3"
+    },
+    {
+      "$type" : "facet",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+      "$properties" : {
+        "name" : "Using file-systems for structured-data editors",
+        "url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3",
+        "updated" : "2021-09-11"
+      }
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3/content/html",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3.html"
+    },
+    {
+      "$type" : "attachment",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3/content/text",
+      "$entity" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+      "$url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3.txt"
+    },
+    {
+      "$type" : "link",
+      "$id" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3/author",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+      "$entities" : {
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3",
+        "author" : "https://w3id.org/people/ciprian.craciun/self"
+      }
+    },
+    {
+      "$type" : "link",
+      "$id" : "tag:ciprian.craciun@gmail.com,2021-10-02:id:eea950ef1dd871ec",
+      "$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+      "$entities" : {
+        "feed" : "https://w3id.org/people/ciprian.craciun/2021/830529eb",
+        "entry" : "https://w3id.org/people/ciprian.craciun/2021/6697ebb3"
+      }
+    }
+  ]
+}
