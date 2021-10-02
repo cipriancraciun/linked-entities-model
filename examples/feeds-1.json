@@ -1,0 +1,369 @@
+{
+	
+	"$schema" : "https://w3id.org/lem/2021a/schemas/records",
+	
+	"$records" : [
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/self",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-card",
+			
+			"name" : "Ciprian Dorin Craciun",
+			"given-name" : "Ciprian",
+			"additional-name" : "Dorin",
+			"family-name" : "Craciun",
+			"nickname" : "ciprian.craciun",
+			"email" : "ciprian.craciun@gmail.com",
+			"region" : "Timis",
+			"locality" : "Timisoara",
+			"country-name" : "Romania"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/self/avatar",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-card/logo",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/self",
+			"$content-type" : "image/*",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/c602db805b4e93c9014126062432311b/avatar.jpg"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:person:lion",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-card",
+			
+			"name" : "Lion Kimbro",
+			"given-name" : "Lion",
+			"family-name" : "Kimbro",
+			"nickname" : "lion.kimbro",
+			"email" : "lionkimbro@gmail.com",
+			"country-name" : "United States"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed",
+			
+			"name" : "Ciprian's unpublished ideas"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/author",
+			
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed",
+			
+			"name" : "Lion's Internet Office -- Discussions Feed"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/author",
+			
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"author" : "tag:lionkimbro@gmail.com,2021:person:lion"
+		},
+		
+		
+		
+		
+		{
+			"$type" : "directive",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/see-also",
+			"entities" : [
+				"https://w3id.org/people/ciprian.craciun/self",
+				"tag:lionkimbro@gmail.com,2021:person:lion",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-1",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-5",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-7",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-9",
+				"tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-14"
+			],
+			"url" : "https://raw.githubusercontent.com/LionKimbro/lions_internet_office/main/2021/discussions/entitypackage_lionsinternetoffice_discussions.json"
+		},
+		{
+			"$type" : "directive",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/aliases-map",
+			"aliases" : {
+				"https://w3id.org/people/ciprian.craciun/self" : ["tag:lionkimbro@gmail.com,2021:person:ciprian.craciun"],
+				"https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3" : ["tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-1"],
+				"https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca" : ["tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-5"],
+				"https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7" : ["tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-7"],
+				"https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9" : ["tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-9"],
+				"https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd" : ["tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:post-14"]
+			}
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+			"name" : "Data as code",
+			"url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9",
+			"updated" : "2021-09-11"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9/content/html",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9",
+			"$content-type" : "text/html",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9.html"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9/content/text",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9",
+			"$content-type" : "text/plain",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/19817cd9.txt"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/19817cd9",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed-post-9",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/19817cd9"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+			"name" : "Entities, links, data",
+			"url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7",
+			"updated" : "2021-09-11"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7/content/html",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7",
+			"$content-type" : "text/html",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7.html"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7/content/text",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7",
+			"$content-type" : "text/plain",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/1ab930b7.txt"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/1ab930b7",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed-post-7",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/1ab930b7"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+			"name" : "The `...` symlinks trick for \"local aliasing\"",
+			"url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca",
+			"updated" : "2021-09-11"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca/content/html",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca",
+			"$content-type" : "text/html",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca.html"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca/content/text",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca",
+			"$content-type" : "text/plain",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/4a56cfca.txt"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/4a56cfca",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed-post-5",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/4a56cfca"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+			"name" : "Regarding a common HTML rendering for markup languages",
+			"url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd",
+			"updated" : "2021-09-13"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd/content/html",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd",
+			"$content-type" : "text/html",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd.html"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd/content/text",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd",
+			"$content-type" : "text/plain",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/58cdcdcd.txt"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/58cdcdcd",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed-post-14",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/58cdcdcd"
+		},
+		
+		
+		
+		
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3",
+			"$type" : "facet",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry",
+			"name" : "Using file-systems for structured-data editors",
+			"url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3",
+			"updated" : "2021-09-11"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3/author",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/author",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3",
+			"author" : "https://w3id.org/people/ciprian.craciun/self"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3/content/html",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/html",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3",
+			"$content-type" : "text/html",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3.html"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3/content/text",
+			"$type" : "attachment",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-entry/content/text",
+			"$entity" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3",
+			"$content-type" : "text/plain",
+			"$content-url" : "https://scratchpad.volution.ro/ciprian/992c7f2944456f18cdde77f683f49aa7/6697ebb3.txt"
+		},
+		{
+			"$id" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb/6697ebb3",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "https://w3id.org/people/ciprian.craciun/2021/resources/830529eb",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3"
+		},
+		{
+			"$id" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed-post-1",
+			"$type" : "link",
+			"$schema" : "https://w3id.org/lem/2021a/schemas/microformats/h-feed/entry",
+			"feed" : "tag:lionkimbro@gmail.com,2021:lions-internet-office:feeds:discussions:feed",
+			"entry" : "https://w3id.org/people/ciprian.craciun/2021/resources/6697ebb3"
+		}
+		
+		
+		
+		
+	]
+}
+
